@@ -1,0 +1,21 @@
+{
+  "name": "electron_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron": "webpack && electron-packager . && electron .",
+    "web": "webpack -—target web && webpack-dev-server --target web"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.7.8",
+    "minimist": "^1.2.0",
+    "webpack-target-electron-renderer": "^0.4.0"
+  },
+  "dependencies": {
+    "is-electron-renderer": "^2.0.1"
+  }
+}
