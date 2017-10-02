@@ -7,10 +7,12 @@ You can find the mininal workable demonstration in commit 39a86bc. In this commi
 
 ### How to run
 
-####Get all the packages
+#### Get all the packages
+
 `npm install`
 
-####Compile and build
+#### Compile and build
+
 `npm run electron`
 
 This command will do the following things
@@ -20,7 +22,8 @@ This command will do the following things
 
 After running the code, a folder named "electron_demo-win32-x64" is created with the executable file. You can copy this folder to other places.
 
-####Run web server
+#### Run web server
+
 `npm run web`
 
 This command will do the following things
