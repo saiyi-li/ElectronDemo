@@ -30,4 +30,4 @@ This command will do the following things
 - Compress js to build/bundle.js
 - Run web server
 
-You can access the webpage by http://localhost:8080
+You can access the webpage by http://localhost:8081/src/index.html
