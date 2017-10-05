@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 3000",
+    "start": "webpack-dev-server --inline --progress --port 8081",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
     "test": "karma start",
     "lint": "tslint 'src/**/*.ts' --type-check --project tsconfig.json -e src/main-aot.ts",
