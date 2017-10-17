@@ -32,4 +32,4 @@ This command will do the following things
 
 The "electron_demo-win32-x64" may lead to issues in this step. If there is any issue relating to this folder, delete it will solve the problem.
 
-You can access the webpage by http://localhost:8081/src/index.html
+You can access the webpage by http://localhost:8081
